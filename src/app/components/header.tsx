@@ -20,7 +20,6 @@ import  Imagechair  from "@/app/assets/Image.png"
 import  Image2  from "@/app/assets/Image (1).png"
 import  Image3  from "@/app/assets/Image (2).png"
 import  Image4  from "@/app/assets/Image (3).png"
-import  Image5  from "@/app/assets/Image (4).png"
 
 
 
@@ -66,9 +65,8 @@ export const Navbar =() => {
                             </div>
                             <nav className="flex space-x-4">
                                 <Link href="/" className="text-gray-700">Home</Link>
-                                {/* <a href="#" className="text-gray-700">Shop</a> */}
                                 <Link href= "/product" className="text-gray-700">Product</Link>
-                                <a href="#" className="text-gray-700">Pages</a>
+                                <Link href="/card" className="text-gray-700">Pages</Link>
                                 <Link href="/about" className="text-gray-700">About</Link>
                             </nav>
                             <div className="flex items-center space-x-4 ">

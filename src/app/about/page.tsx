@@ -22,15 +22,14 @@ const About=() => {
                     <header className="bg-white shadow-md">
                         <div className="container mx-auto flex justify-between items-center py-4 px-6">
                             <div className="flex items-center ">
-                                <Image src={logosofa5} alt ="logosofa"/>
+                                <Image src={logosofa5} alt="logosofa"/>
                                 <span className="text-xl font-bold">Comforty</span>
                             </div>
                             <nav className="flex space-x-4">
                                 <Link href="/" className="text-gray-700">Home</Link>
-                                {/* <a href="#" className="text-gray-700">Shop</a> */}
                                 <Link href= "/product" className="text-gray-700">Product</Link>
                                 <Link href="/card" className="text-gray-700">Pages</Link>
-                                <Link href="#" className="text-gray-700">About</Link>
+                                <Link href="/about" className="text-gray-700">About</Link>
                             </nav>
                             </div>
                             </header>
