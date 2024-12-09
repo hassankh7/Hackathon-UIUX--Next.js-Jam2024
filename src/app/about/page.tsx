@@ -17,7 +17,7 @@ const About=() => {
     return(
         <div>
             <Header/>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
             <div className="bg-gray-100">
                     <header className="bg-white shadow-md">
                         <div className="container mx-auto flex justify-between items-center py-4 px-6">
@@ -58,22 +58,22 @@ const About=() => {
                 <div className="bg-white p-6 shadow-md rounded">
                     <i className="fas fa-shipping-fast text-[#007580] text-3xl mb-4"></i>
                     <h3 className="text-xl font-semibold mb-2 text-[#007580]">Next day as standard</h3>
-                    <p className=" text-[#007580]">Order before 3pm and get your order the next day as standard</p>
+                    <p className="text-[#007580]">&quot;Order before 3pm and get your order the next day as standard&quot;</p>
                 </div>
                 <div className="bg-white p-6 shadow-md rounded">
                     <i className="fas fa-hands text-[#007580] text-3xl mb-4"></i>
-                    <h3 className="text-xl font-semibold mb-2  text-[#007580]">Made by true artisans</h3>
-                    <p className=" text-[#007580]">Handmade crafted goods made with real passion and craftsmanship</p>
+                    <h3 className="text-xl font-semibold mb-2 text-[#007580]">Made by true artisans</h3>
+                    <p className="text-[#007580]">Handmade crafted goods made with real passion and craftsmanship</p>
                 </div>
                 <div className="bg-white p-6 shadow-md rounded">
                     <i className="fas fa-tags text-teal-700 text-3xl mb-4"></i>
-                    <h3 className="text-xl font-semibold mb-2  text-[#007580]">Unbeatable prices</h3>
-                    <p className=" text-[#007580]">For our materials and quality you won't find better prices anywhere</p>
+                    <h3 className="text-xl font-semibold mb-2 text-[#007580]">Unbeatable prices</h3>
+                    <p className="text-[#007580]">For our materials and quality you wont find better prices anywhere&quot;</p>
                 </div>
                 <div className="bg-white p-6 shadow-md rounded">
                     <i className="fas fa-recycle text-teal-700 text-3xl mb-4"></i>
-                    <h3 className="text-xl font-semibold mb-2  text-[#007580]">Recycled packaging</h3>
-                    <p className=" text-[#007580]">We use 100% recycled to ensure our footprint is more manageable</p>
+                    <h3 className="text-xl font-semibold mb-2 text-[#007580]">Recycled packaging</h3>
+                    <p className="text-[#007580]">We use 100% recycled to ensure our footprint is more manageable</p>
                 </div>
             </div>
         </section>
