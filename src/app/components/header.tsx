@@ -2,6 +2,10 @@
 
 import React from "react"
 import Image from "next/image"
+import Link from "next/link"
+
+
+// Ye Sab Images Hie Export Ki Hie Mene 
 import logoSofa from "@/app/assets/Logo Sofa.png"
 import brand0 from "@/app/assets/Logo.png"
 import brand1 from "@/app/assets/Logo (1).png"
@@ -25,18 +29,18 @@ const Header = () => {
         <div className="w-full h-[65px] py-[14px] px-[300px] bg-[#272343] flex justify-between items-center">
         <span className="text-white">Free shipping on all orders over $50</span>    
 
-        <div className="flex justify-end gap-6">
+        <div className="flex justify-end items-center gap-6">
         <select className="bg-[#272343] text-white">
             <option value="eng">Eng</option>
         </select>
 
           {/* FAQs Link */}
-            <a href="#faqs" className="text-white hover:underline">FAQs</a>
+            <a href="#faqs" className="text-white hover:underline text-sm">FAQs</a>
 
          {/* Need Help Section  */}
-        <div className="flex items-center text-white space-x-1">
+        <div className="flex items-center text-white space-x-1 ">
          <span className="text-lg">!</span>
-       <a href="#help" className="hover:underline">Need Help</a>
+       <a href="#help" className="hover:underline text-sm">Need Help</a>
        </div>
 
         </div>
@@ -51,31 +55,26 @@ export default Header
 export const Navbar =() => {
     return(
         <div>
-        
-    <script src="https://unpkg.com/react/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.js"></script>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"></link>
                 <div className="bg-gray-100">
                     <header className="bg-white shadow-md">
                         <div className="container mx-auto flex justify-between items-center py-4 px-6">
                             <div className="flex items-center ">
-                                <Image src={logoSofa} alt ="logosofa"/>
+                                <Image src={logoSofa} alt ="logosofa" className="h-8 md:h-10"/>
                                 <span className="text-xl font-bold">Comforty</span>
                             </div>
                             <nav className="flex space-x-4">
-                                <a href="#" className="text-gray-700">Home</a>
-                                <a href="#" className="text-gray-700">Shop</a>
-                                <a href="#" className="text-gray-700">Product</a>
+                                <Link href="/" className="text-gray-700">Home</Link>
+                                {/* <a href="#" className="text-gray-700">Shop</a> */}
+                                <Link href= "/product" className="text-gray-700">Product</Link>
                                 <a href="#" className="text-gray-700">Pages</a>
-                                <a href="#" className="text-gray-700">About</a>
+                                <Link href="/about" className="text-gray-700">About</Link>
                             </nav>
                             <div className="flex items-center space-x-4 ">
-                                <a href="#" className="text-gray-700"><i className="fas fa-heart"></i></a>
-                                <a href="#" className="text-gray-700"><i className="fas fa-shopping-cart"></i></a>
-                                <a href="#" className="text-gray-700">Login</a>
+                                <a href="#" className="text-gray-700 text-sm md:text-base"><i className="fas fa-heart "></i></a>
+                                <a href="#" className="text-gray-700 text-sm md:text-base"><i className="fas fa-shopping-cart"></i></a>
+                                <a href="#" className="text-gray-700 text-sm md:text-base">Login</a>
                             </div>
                         </div>
                     </header>
@@ -93,16 +92,16 @@ export const Navbar =() => {
                             </div>
                         </div>
                         <div className="flex justify-around items-center space-x-4 py-8">
-                            <Image src={brand0} alt="Zapier1" />
-                         <Image src={brand1} alt="Zapier"/>
-                        <Image  src= {brand2} alt="Pipedrive"/>
-                         <Image  src={brand3} alt="CIB Bank"/>
-                         <Image src={brand4} alt="Burnt Toast"/>
-                        <Image src={brand5} alt="PandaDoc" />
-                        <Image src={brand6} alt="Moz"/>
+                            <Image src={brand0} alt="Zapier1" className="w-16 md:w-24" />
+                         <Image src={brand1} alt="Zapier" className="w-16 md:w-24"/>
+                        <Image  src= {brand2} alt="Pipedrive" className="w-16 md:w-24"/>
+                         <Image  src={brand3} alt="CIB Bank" className="w-16 md:w-24"/>
+                         <Image src={brand4} alt="Burnt Toast" className="w-16 md:w-24"/>
+                        <Image src={brand5} alt="PandaDoc" className="w-16 md:w-24" />
+                        <Image src={brand6} alt="Moz" className="w-16 md:w-24"/>
                         </div>
                         <section>
-                            <h2 className="text-2xl font-bold mb-4">Featured Products</h2>
+                            <h2 className="text-2xl font-bold mb-4 md:text-left">Featured Products</h2>
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                                 <div className="bg-white p-4 rounded-lg shadow-md">
                             <Image src={Imagechair} alt="Library Stool Chair"/>

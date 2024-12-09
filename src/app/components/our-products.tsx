@@ -16,7 +16,7 @@ const OurProduct =() => {
     return(
         <div>
              <section>
-                        <h2 className="text-2xl font-bold mb-4">Our Products</h2>
+                        <h2 className="text-2xl font-bold mb-4 text-center md:text-left">Our Products</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                             <div className="relative bg-white p-4 rounded-lg shadow">
                             <Image src={Product1} alt="Luxury Stool Chair" className="w-full h-auto rounded-lg mb-4"/>
@@ -58,7 +58,7 @@ const OurProduct =() => {
                                 <p className="text-gray-500">$20</p>
                             </div>
                             <div className="relative bg-white p-4 rounded-lg shadow">
-                            <Image src={Product8} alt="L" className="w-full h-auto rounded-lg mb-4"/>
+                            <Image src={Product8} alt="Libaray" className="w-full h-auto rounded-lg mb-4"/>
                                 <h3 className="text-lg font-bold">Libaray Stool Chair</h3>
                                 <p className="text-gray-500">$20</p>
                             </div>
@@ -68,7 +68,6 @@ const OurProduct =() => {
 
     )
 }
-
 
 
 export default OurProduct

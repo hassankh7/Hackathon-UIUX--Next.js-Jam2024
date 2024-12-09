@@ -1,4 +1,5 @@
 import React from "react"
+import Link from "next/link"
 
 import Header, { Navbar } from "./components/header"
 import TopCategries from "./components/top-categories"
@@ -14,6 +15,8 @@ const Home =() => {
       <TopCategries/>
       <OurProduct/>
       <Footer/>
+
+      <Link href ="/productpage">Home</Link>
     </div>
   )
 } 
