@@ -27,9 +27,11 @@ const About=() => {
                             </div>
                             <nav className="flex space-x-4">
                                 <Link href="/" className="text-gray-700">Home</Link>
+                                <Link href="/shop" className="text-gray-700">Shop</Link>
                                 <Link href= "/product" className="text-gray-700">Product</Link>
                                 <Link href="/card" className="text-gray-700">Pages</Link>
                                 <Link href="/about" className="text-gray-700">About</Link>
+                                <Link href="/contact" className="text-gray-700">Contact</Link>
                             </nav>
                             </div>
                             </header>

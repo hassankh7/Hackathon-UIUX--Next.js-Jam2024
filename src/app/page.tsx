@@ -1,7 +1,8 @@
 import React from "react"
-import Link from "next/link"
+// import Link from "next/link"
 
-import Header, { Navbar } from "./components/header"
+import Header from "./components/header"
+import Navbar from "./components/Navbar"
 import TopCategries from "./components/top-categories"
 import OurProduct from "./components/our-products"
 import Footer from "./components/footer"
@@ -16,7 +17,6 @@ const Home =() => {
       <OurProduct/>
       <Footer/>
 
-      <Link href ="/productpage">Home</Link>
     </div>
   )
 } 

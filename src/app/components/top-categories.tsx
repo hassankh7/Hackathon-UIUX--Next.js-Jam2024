@@ -40,7 +40,7 @@ const TopCategories = () => {
             </div>
         </section>
         <section className="mb-8">
-                        <h2 className="text-2xl font-bold mb-4">Explore New and Popular Styles</h2>
+                        <h2 className="text-[60px] font-bold mb-4">Explore New and Popular Styles</h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                <div className="col-span-2">
               <Image src={Itembig} alt="Orange Chair" className="w-full h-auto "/>
