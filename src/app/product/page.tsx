@@ -1,8 +1,7 @@
 
  import React from "react";
-import Link from "next/link";
 import Image from "next/image";
-import logosofa3 from "@/app/assets/Logo Sofa.png"
+
 
 // Ab Image Import Karonga Main 
 import Productchair from "@/app/assets/Pink big Sofa.png"
@@ -16,26 +15,7 @@ import Productchair5 from "@/app/assets/Image (6).png"
 const Productpage =() => {
     return(
         <div>
-            {/* <Header/>
-
-            <div className="bg-gray-100">
-                    <header className="bg-white shadow-md">
-                        <div className="container mx-auto flex justify-between items-center py-4 px-6">
-                            <div className="flex items-center ">
-                                <Image src={logosofa3} alt ="logosofa"/>
-                                <span className="text-xl font-bold">Comforty</span>
-                            </div>
-                            <nav className="flex space-x-4">
-                                <Link href="/" className="text-gray-700">Home</Link>
-                                <Link href="/shop" className="text-gray-700">Shop</Link>
-                                <Link href="/product" className="text-gray-700">Product</Link>
-                                <Link href="/card" className="text-gray-700">Pages</Link>
-                                <Link href="/about" className="text-gray-700">About</Link>
-                                <Link href="/contact" className="text-gray-700">Contact</Link>
-                            </nav>
-                            </div>
-                            </header>
-                            </div>            */}
+            
               <div className="container mx-auto p-4">
                     <div className="flex flex-col md:flex-row items-start md:items-center">
                         <div className="w-full md:w-1/2 p-4">

@@ -1,10 +1,7 @@
 
 
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
-// import Header from "../components/header";
-// import Footer from "../components/footer";
 import Cardchair from "@/app/assets/Image (2).png"
 import logo5 from "@/app/assets/Logo Sofa.png"
 

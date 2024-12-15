@@ -1,12 +1,9 @@
 
 
 import React from "react";
-// import Link from "next/link";
 import Image from "next/image";
-// import Header from "../components/header";
-import Footer from "../components/footer";
 
-import logosofa5 from "@/app/assets/Logo Sofa.png"
+
 import chairwhite from "@/app/assets/Image.png"
 import chairGreen from "@/app/assets/Green Large Sofa.png"
 import chairbrown from "@/app/assets/Black brown Chair.png"
@@ -16,26 +13,7 @@ import blackchair from "@/app/assets/Black Chair.png"
 const About=() => {
     return(
         <div>
-            {/* <Header/>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-            <div className="bg-gray-100">
-                    <header className="bg-white shadow-md">
-                        <div className="container mx-auto flex justify-between items-center py-4 px-6">
-                            <div className="flex items-center ">
-                                <Image src={logosofa5} alt="logosofa"/>
-                                <span className="text-xl font-bold">Comforty</span>
-                            </div>
-                            <nav className="flex space-x-4">
-                                <Link href="/" className="text-gray-700">Home</Link>
-                                <Link href="/shop" className="text-gray-700">Shop</Link>
-                                <Link href= "/product" className="text-gray-700">Product</Link>
-                                <Link href="/card" className="text-gray-700">Pages</Link>
-                                <Link href="/about" className="text-gray-700">About</Link>
-                                <Link href="/contact" className="text-gray-700">Contact</Link>
-                            </nav>
-                            </div>
-                            </header>
-                            </div>            */}
+           
 
         <div className="font-sans">
         <section className="flex flex-col md:flex-row gap-20">
@@ -101,7 +79,6 @@ const About=() => {
             </div>
         </section>
     </div>
-    <Footer/>
     </div>
     )
 }

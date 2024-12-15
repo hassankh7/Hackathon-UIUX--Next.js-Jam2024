@@ -1,37 +1,14 @@
 
 
 import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-import logo8 from "@/app/assets/Logo Sofa.png"
-import Header from "../components/header";
-import Footer from "../components/footer";
+
 
 const Faqs =() => {
 
     return(
         <div>
-        <Header/>
-
-        <div className=  "bg-gray-100 ">
-                <header className="bg-white shadow-md flex justify-center">
-                    <div className="container mx-auto flex justify-between items-center py-4 px-6">
-                        <div className="flex items-center ">
-                            <Image src={logo8} alt ="logosofa"/>
-                            <span className="text-xl font-bold">Comforty</span>
-                        </div>
-                        <nav className="flex space-x-4">
-                            <Link href="/" className="text-gray-700">Home</Link>
-                            <Link href="/shop" className="text-gray-700">Shop</Link>
-                            <Link href="/product" className="text-gray-700">Product</Link>
-                            <Link href="/card" className="text-gray-700">Pages</Link>
-                            <Link href="/about" className="text-gray-700">About</Link>
-                            <Link href="/contact" className="text-gray-700">Contact</Link>
-                        </nav>
-                        </div>
-                        </header>
-                        </div>           
-                        <div className="flex justify-center items-center">
+        
+                     <div className="flex justify-center items-center">
                     <h1 className="text-[50px] font-bold mb-4 ml-24">Questions Looks Here</h1>
                     </div>
                     <div className="ml-72">
@@ -84,7 +61,6 @@ const Faqs =() => {
                             </div>
                         </div>
                     </div>
-                    <Footer/>
                 </div>
     )
 }

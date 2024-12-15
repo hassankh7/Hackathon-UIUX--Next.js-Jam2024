@@ -1,9 +1,7 @@
 
 
 import React from "react"
-import Link from "next/link"
 import Image from "next/image"
-import logo6 from "@/app/assets/Logo Sofa.png"
 import Productimage1 from "@/app/assets/Pink big Sofa.png"
 import Productimage2 from "@/app/assets/Image (2).png"
 import Productimage3 from "@/app/assets/Image (4).png"
@@ -28,8 +26,6 @@ import fbImage6 from "@/app/assets/Image (6).png"
 
 
 
-import Header from "../components/header"
-import Footer from "../components/footer"
 
 
 import Librarychair1 from "@/app/assets/Image.png"
@@ -173,7 +169,6 @@ const Shop =() => {
             <Image src={fbImage6} alt="fbproduct6" className="w-24 h-24 object-cover rounded-lg" />
         </div>
     </div>
-<Footer/>
 </div>
 )
 }
