@@ -1,9 +1,9 @@
 
 
 import React from "react";
-import Link from "next/link";
+// import Link from "next/link";
 import Image from "next/image";
-import Header from "../components/header";
+// import Header from "../components/header";
 import Footer from "../components/footer";
 
 import logosofa5 from "@/app/assets/Logo Sofa.png"
@@ -16,7 +16,7 @@ import blackchair from "@/app/assets/Black Chair.png"
 const About=() => {
     return(
         <div>
-            <Header/>
+            {/* <Header/>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
             <div className="bg-gray-100">
                     <header className="bg-white shadow-md">
@@ -35,7 +35,7 @@ const About=() => {
                             </nav>
                             </div>
                             </header>
-                            </div>           
+                            </div>            */}
 
         <div className="font-sans">
         <section className="flex flex-col md:flex-row gap-20">

@@ -3,8 +3,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import logosofa3 from "@/app/assets/Logo Sofa.png"
-import Header from "../components/header";
-import Footer from "../components/footer";
 
 // Ab Image Import Karonga Main 
 import Productchair from "@/app/assets/Pink big Sofa.png"
@@ -18,7 +16,7 @@ import Productchair5 from "@/app/assets/Image (6).png"
 const Productpage =() => {
     return(
         <div>
-            <Header/>
+            {/* <Header/>
 
             <div className="bg-gray-100">
                     <header className="bg-white shadow-md">
@@ -37,7 +35,7 @@ const Productpage =() => {
                             </nav>
                             </div>
                             </header>
-                            </div>           
+                            </div>            */}
               <div className="container mx-auto p-4">
                     <div className="flex flex-col md:flex-row items-start md:items-center">
                         <div className="w-full md:w-1/2 p-4">
@@ -90,7 +88,7 @@ const Productpage =() => {
                         </div>
                     </div>
                 </div>
-                <Footer/>
+
         </div>
     )
 }

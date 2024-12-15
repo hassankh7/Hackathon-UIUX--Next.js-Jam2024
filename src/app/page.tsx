@@ -1,22 +1,19 @@
 import React from "react"
 // import Link from "next/link"
 
-import Header from "./components/header"
-import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
 import TopCategries from "./components/top-categories"
 import OurProduct from "./components/our-products"
-import Footer from "./components/footer"
+
 
 
 const Home =() => {
   return(
     <div>
-      <Header/>
-      <Navbar/>
+    
+      <Hero/>
       <TopCategries/>
       <OurProduct/>
-      <Footer/>
-
     </div>
   )
 } 

@@ -3,31 +3,16 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Header from "../components/header";
-import Footer from "../components/footer";
+// import Header from "../components/header";
+// import Footer from "../components/footer";
 import Cardchair from "@/app/assets/Image (2).png"
 import logo5 from "@/app/assets/Logo Sofa.png"
 
 const Card = () => {
     return(
         <div>
-         <Header/>
-             <header className="bg-white shadow">
-  <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-   <div className="flex items-center">
-    <Image src={logo5} alt="logo5"/>
-    <span className="text-xl font-bold">Comforty</span>
-   </div>
-   <div className="flex  ">
-   <nav className="flex justify-between space-x-4">
-    <Link href="/"  className="text-gray-600 hover:text-gray-800">Home</Link>
-    <Link href="/shop"  className="text-gray-600 hover:text-gray-800">Shop</Link>
-    <Link href= "/product" className="text-gray-700">Product</Link>
-    <Link href="/card" className="text-gray-700 hover:text-gray-800">Pages</Link>
-    <Link href="/about" className="text-gray-600 hover:text-gray-800">About</Link>
-    <Link href="/contact" className="text-gray-700">Contact</Link>
-   </nav>
-   </div>
+         
+           <div>
    <div className="flex items-center space-x-4">
     <span className="text-gray-600">
      Contact: 0800 555-0111
@@ -43,7 +28,6 @@ const Card = () => {
     </div>
    </div>
   </div>
- </header>
  <main className="container mx-auto px-4 py-8">
   <div className="flex flex-col lg:flex-row lg:space-x-8">
    <div className="flex-1">
@@ -144,7 +128,6 @@ const Card = () => {
    </div>
   </div>
  </main>
- <Footer/>
 </div>
     )
 }

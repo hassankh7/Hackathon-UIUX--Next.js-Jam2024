@@ -37,25 +37,7 @@ import Librarychair1 from "@/app/assets/Image.png"
 const Shop =() => {
     return(
         <div>
-            <Header/>
-            <div className="bg-white shadow">
-  <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-   <div className="flex items-center">
-    <Image src={logo6} alt="logo5"/>
-    <span className="text-xl font-bold">Comforty</span>
-   </div>
-   <div className="flex  ">
-   <nav className="flex justify-between space-x-4">
-    <Link href="/"  className="text-gray-600 hover:text-gray-800">Home</Link>
-    <Link href="/shop"  className="text-gray-600 hover:text-gray-800">Shop</Link>
-    <Link href= "/product" className="text-gray-700">Product</Link>
-    <Link href="/card" className="text-gray-700 hover:text-gray-800">Pages</Link>
-    <Link href="/about" className="text-gray-600 hover:text-gray-800">About</Link>
-    <Link href="/contact" className="text-gray-700">Contact</Link>
-   </nav>
-   </div>
-   </div>
-   </div>
+          
     <h1 className="text-2xl font-bold mb-4">All Products</h1>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <div className="bg-white rounded-lg shadow-md p-4">

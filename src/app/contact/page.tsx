@@ -3,33 +3,13 @@ import React from "react";
 import Link  from "next/link";
 import Image from "next/image";
 import logo7 from "@/app/assets/Logo Sofa.png"
-import Header from "../components/header";
-import Footer from "../components/footer";
+// import Header from "../components/header";
+// import Footer from "../components/footer";
 
 const Contact =() => {
 
     return(
-        <div className="flex flex-col justify-between items-center min-h-screen bg-white">
-              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
-            <Header/>
-            <div className="bg-gray-100">
-                    <header className="bg-white shadow-md">
-                        <div className="container mx-auto flex justify-between items-center py-4 px-6">
-                            <div className="flex justify-between items-center ">
-                                <Image src={logo7} alt ="logosofa" className="w-8 h-8"/>
-                                <span className="text-xl font-bold">Comforty  </span>
-                            </div>
-                            <nav className="flex space-x-4">
-                                <Link href="/" className="text-gray-700">Home</Link>
-                                <Link href="/shop" className="text-gray-700">Shop</Link>
-                                <Link href="/product" className="text-gray-700">Product</Link>
-                                <Link href="/card" className="text-gray-700">Pages</Link>
-                                <Link href="/about" className="text-gray-700">About</Link>
-                                <Link href="/contact" className="text-gray-700">Contact</Link>
-                            </nav>
-                            </div>
-                            </header>
-                            </div>           
+       <div>
         <div className="w-full max-w-4xl p-8">
             <h1 className="text-3xl font-bold text-center mb-4">Get In Touch With Us</h1>
             <p className="text-center text-gray-600 mb-8">
@@ -102,7 +82,6 @@ const Contact =() => {
                 </div>
             </div>
         </div>
-        <Footer/>
     </div>
     )
 }
