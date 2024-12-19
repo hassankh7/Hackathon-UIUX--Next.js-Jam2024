@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 // Ye Sab Images Hie Export Ki Hie Mene 
-import logoSofa from "@/app/assets/Logo Sofa.png"
 import brand0 from "@/app/assets/Logo.png"
 import brand1 from "@/app/assets/Logo (1).png"
 import brand2 from "@/app/assets/Logo (2).png"

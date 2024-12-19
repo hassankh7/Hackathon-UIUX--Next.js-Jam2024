@@ -1,8 +1,5 @@
 
 import React from "react";
-import Link  from "next/link";
-import Image from "next/image";
-import logo7 from "@/app/assets/Logo Sofa.png"
 // import Header from "../components/header";
 // import Footer from "../components/footer";
 

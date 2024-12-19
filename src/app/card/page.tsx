@@ -3,7 +3,6 @@
 import React from "react";
 import Image from "next/image";
 import Cardchair from "@/app/assets/Image (2).png"
-import logo5 from "@/app/assets/Logo Sofa.png"
 
 const Card = () => {
     return(
