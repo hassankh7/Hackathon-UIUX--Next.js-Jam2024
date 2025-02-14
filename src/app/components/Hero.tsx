@@ -17,7 +17,7 @@ import  Image3  from "@/app/assets/Image (2).png"
 import  Image4  from "@/app/assets/Image (3).png"
 
 
-const Hero =() => {
+const Hero =() =>{
     return(
         <div>
              <main className="py-8 px-6 ">
@@ -30,7 +30,7 @@ const Hero =() => {
                             </div>
                             {/* Sofie ke Image ka Div hie Ye  */}
                             <div className="flex justify-center w-[435px] h-[584px] ">
-                            <Image src={Sofa} alt="sofa" unoptimized/>
+                            <Image src={Sofa} alt="sofa" priority unoptimized/>
                             </div>
                         </div>
                         <div className="flex justify-around items-center space-x-4 py-8">
@@ -72,4 +72,4 @@ const Hero =() => {
     )
 }
 
-export default Hero
+export default Hero;
