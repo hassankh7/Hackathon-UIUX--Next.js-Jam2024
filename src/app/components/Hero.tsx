@@ -21,7 +21,7 @@ const Hero =() => {
     return(
         <div>
              <main className="py-8 px-6 ">
-                        <div className="flex flex-col md:flex-row items-center justify-between bg-white p-6 rounded-lg shadow-md w-[1550px] h-[850px]">
+                        <div className="flex flex-col md:flex-row items-center justify-between bg-white p-6 rounded-lg shadow-md max-w-screen-xl mx-auto h-auto">
                             <div className="md:w-1/2">
                             <h5 className="text-gray-700 mb-4">WELCOME TO CHAIRY</h5>
                                 <h1 className="text-[80px] font-bold mb-4">Best Furniture <br/>Collection For Your<br/>Interior.</h1>
@@ -30,7 +30,7 @@ const Hero =() => {
                             </div>
                             {/* Sofie ke Image ka Div hie Ye  */}
                             <div className="flex justify-center w-[435px] h-[584px] ">
-                            <Image src={Sofa} alt="sofa" />
+                            <Image src={Sofa} alt="sofa" unoptimized/>
                             </div>
                         </div>
                         <div className="flex justify-around items-center space-x-4 py-8">
